@@ -1,6 +1,6 @@
 async function fetchArbitrageData() {
     try {
-        const response = await fetch("https://your-api.onrender.com/prices"); // ✅ Use your Render API URL
+        const response = await fetch("https://arbitrage-backend-1-996e.onrender.com"); // ✅ Use your Render API URL
         const data = await response.json();
 
         let arbitrageData = data.map(item => {
